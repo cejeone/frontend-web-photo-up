@@ -1,0 +1,15 @@
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+@import "global";
+
+//components
+@import "components/navbar";
+@import "components/footer";
+
+//page
+@import "pages/beranda";
+@import "pages/profil";
+@import "pages/blog";
+@import "pages/acara";
+
+
