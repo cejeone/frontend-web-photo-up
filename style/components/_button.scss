@@ -1,0 +1,25 @@
+.btn-custom {
+  background-color: var(--btn-primary);
+  border-radius: 15px;
+  width: 120px;
+  padding: 11px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--font-btn);
+  position: relative;
+
+  &:hover {
+    background-color: var(--btn-hover);
+    color: var(--font-btn);
+  }
+
+  &.btn-mulai {
+    justify-content: center;
+    text-align: center;
+  }
+
+  &.btn-more {
+    margin: 20px 0;
+    width: 160px;
+  }
+}

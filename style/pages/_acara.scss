@@ -1,0 +1,10 @@
+section.acara {
+     & .title-acara {
+          @include media-breakpoint-up(lg) {
+               & img {
+                    height: 50%;
+                    width: 50%;
+               }
+          }
+     }
+}

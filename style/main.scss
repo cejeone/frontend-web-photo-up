@@ -5,11 +5,14 @@
 //components
 @import "components/navbar";
 @import "components/footer";
+@import "components/scroll-top";
+@import "components/button";
+@import "components/breadcrumb";
 
 //page
 @import "pages/beranda";
 @import "pages/profil";
 @import "pages/blog";
+@import "pages/kontak";
 @import "pages/acara";
-
-
+@import "pages/galeri";

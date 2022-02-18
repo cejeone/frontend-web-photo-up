@@ -1,16 +1,57 @@
 //fonts style
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-//color
-$primaryColor: #0000;
-$secondaryColor: #0000;
+:root {
+  //color
+  --primary-color: #98ACB1;
+  --secondary-color: #f9f9f9;
+  --third-color: #D4DADC;
+  --nav-scroll: #fff;
+  --bg-color: #fff;
+  --bg-card: #fff;
 
-//font color
-$fontPrimary: #0000;
+  //font color
+  --font-h: #16161a;
+  --font-p: #16161a;
+  --font-btn: #fff;
+  --font-nav: #444444;
+  --font-logo: black;
+  --font-footer: black;
 
-//button
-$btnPrimary: #0000;
-$btnHover: #0000;
+  //button
+  --btn-primary: black;
+  --btn-hover: #6e7be5;
+}
 
+body {
+  font-family: "poppins", sans-serif;
+  width: 100%;
+  position: relative;
+  background-color: var(--bg-color);
+}
 
+body.dark {
+  //color
+  --primary-color: #98ACB1;
+  --secondary-color: #242629;
+  --third-color: #D4DADC;
+  --nav-scroll: #16161a;
+  --bg-color: #16161a;
+  --bg-card: #16161a;
 
+  //font color
+  --font-h: #fffffe;
+  --font-p: #94a1b2;
+  --font-btn: #fffffe;
+  --font-nav: #fffffe;
+  --font-logo: #fffffe;
+  --font-footer: black;
+
+  //button
+  --btn-primary: #98ACB1;
+  --btn-hover: #D4DADC;
+}
+
+.page-content {
+  margin-top: 100px;
+}

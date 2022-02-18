@@ -1,0 +1,105 @@
+footer {
+     margin: 20px 20px;
+
+     & .footer-area {
+          background: var(--primary-color);
+          border-radius: 30px;
+          width: 100%;
+          bottom: 0;
+          left: 0;
+          margin: auto;
+          padding: 30px 40px 40px 40px;
+
+          & .footer-item {
+               padding: 20px;
+
+               //footer alamat
+               & .footer-logo {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 30px;
+                    line-height: 36px;
+                    color: var(--font-footer);
+               }
+
+               & p {
+                    margin-top: 30px;
+                    margin-bottom: 40px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: var(--font-footer);
+               }
+
+               & .social-media {
+                    display: flex;
+
+                    & a {
+                         height: 40px;
+                         width: 40px;
+                         background: var(--btn-primary);
+                         margin: 0 8px;
+                         border-radius: 25%;
+                         text-align: center;
+                         line-height: 48px;
+                         color: var(--font-btn);
+                         font-size: 20px;
+                         text-decoration: none;
+                         transition: all 0.4s ease;
+
+                         &:hover {
+                              background: var(--btn-hover);
+                         }
+                    }
+
+               }
+
+               //footer kontak
+               & .h-item {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: var(--font-footer);
+
+               }
+
+               & ul.item {
+                    margin-top: 30px;
+                    text-decoration: none;
+                    padding-left: 0px;
+
+                    & li {
+                         list-style: none;
+                         text-decoration: none;
+                         font-style: normal;
+                         font-weight: 400;
+                         font-size: 16px;
+                         line-height: 24px;
+                         margin-bottom: 20px;
+                         color: var(--font-footer);
+
+                         & i {
+                              font-size: 19px;
+                              margin-right: 15px;
+                         }
+
+                         //list tautan
+                         & a {
+                              text-decoration: none;
+                              color: var(--font-footer);
+
+                         }
+
+                    }
+               }
+
+          }
+
+          & .copyright {
+               display: flex;
+               justify-content: center;
+          }
+     }
+}

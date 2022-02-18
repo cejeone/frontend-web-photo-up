@@ -1,0 +1,113 @@
+.profil {
+     @include media-breakpoint-up(lg) {
+          margin-top: 160px;
+
+          & .gambar-content {
+               margin-top: -160px;
+
+               & .gambar {
+                    background-color: var(--primary-color);
+                    border-radius: 30px;
+                    padding: 200px 50px 50px;
+               }
+          }
+
+          & .judul {
+               font-weight: 800;
+               font-size: 50px;
+               z-index: 2;
+               color: var(--font-h);
+          }
+
+          & img {
+               position: relative;
+               z-index: 1;
+          }
+
+          & p {
+               font-style: normal;
+               font-weight: normal;
+               font-size: 18px;
+               line-height: 28px;
+               margin-bottom: 20px;
+               color: var(--font-p);
+          }
+     }
+}
+
+.kegiatan {
+     @include media-breakpoint-up(lg) {
+          margin-top: 200px;
+
+          & .gambar-content {
+               margin-top: -160px;
+
+               & .gambar {
+                    background-color: var(--primary-color);
+                    border-radius: 30px;
+                    padding: 100px 100px 50px;
+               }
+          }
+
+          & .judul {
+               font-weight: 800;
+               font-size: 50px;
+               z-index: 2;
+               color: var(--font-h);
+          }
+
+          & img {
+               position: relative;
+               z-index: 1;
+          }
+
+          & p {
+               font-style: normal;
+               font-weight: normal;
+               font-size: 18px;
+               line-height: 28px;
+               text-align: right;
+               color: var(--font-p);
+          }
+     }
+
+
+}
+
+.sub-kegiatan-item {
+
+     & .item-box {
+          background-color: var(--bg-card);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          border-radius: 20px;
+          border-bottom: 5px solid var(--primary-color);
+          height: 100%;
+          padding: 60px 30px;
+          text-align: center;
+          transition: 0.3s;
+
+          & h5 {
+               color: var(--font-h);
+
+          }
+
+          & .icon {
+               font-size: 36px;
+               padding: 40px 20px;
+               position: relative;
+               margin-bottom: 25px;
+               display: inline-block;
+               line-height: 0;
+               transition: 0.3s;
+               color: var(--font-h);
+               background: var(--secondary-color);
+               border-radius: 20px;
+          }
+
+          &:hover {
+               background-color: var(--primary-color);
+               color: var(--font-btn);
+
+          }
+     }
+}

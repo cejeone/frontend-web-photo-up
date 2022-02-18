@@ -1,32 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-     <title>PHOTO UP | Beranda</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>PHOTO UP | Beranda</title>
 
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-	<link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-	<link
-		rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-		crossorigin="anonymous"
-		referrerpolicy="no-referrer"
-	/>
-     <link href="style/main.css" rel="stylesheet"/>
+  <!-- CSS -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/vendor/owlcarousel/css/owl.carousel.min.css" rel="stylesheet" />
+  <link href="/vendor/owlcarousel/css/owl.theme.default.min.css" rel="stylesheet" />
+  <link href="/vendor/lightgallery/css/lightgallery-bundle.min.css" rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="style/main.css" rel="stylesheet" />
 </head>
+
 <body>
+  <!-- Navbar -->
+  <nav class="navbar-fixed-top fixed-top">
+    <div class="navbar-photoup">
+      <i class='bx bx-menu-alt-left sidebarOpen'></i>
+      <span class="logo">
+        <a href="index.html">PHOTO UP</a>
+      </span>
+      <div class="menu">
+        <div class="logo-toggle">
+          <span class="logo">
+            <a href="index.html">PHOTO UP</a>
+          </span>
+          <i class='bx bx-x sidebarClose'></i>
+        </div>
+        <ul class="nav-link">
+          <li class="active"><a class="active" href="#">Beranda</a></li>
+          <li><a href="profil.html">Profil</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+          <li><a href="acara.html">Acara</a></li>
+        </ul>
+      </div>
+      <div class="darkLight-searchBox">
+        <div class="dark-light">
+          <i class='bx bx-moon moon'></i>
+          <i class='bx bx-sun sun'></i>
+        </div>
+        <div class="searchBox">
+          <div class="searchToggle">
+            <i class='bx bx-x cancel'></i>
+            <i class='bx bx-search search'></i>
+          </div>
+          <div class="search-field">
+            <input type="text" placeholder="Cari">
+            <i class='bx bx-search'></i>
+          </div>
 
-     
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+  <div class="page-content">
+    <!-- hero header -->
+    <section class="header-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6"></div>
+          <div class="col-lg-6"></div>
+        </div>
+      </div>
 
-     <!-- Bootstrap core JavaScript -->
-	<script src="/vendor/jquery/jquery.slim.min.js"></script>
-	<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script>
-		AOS.init();
-	</script>
+    </section>
+    <!-- end hero header -->
+
+    <!-- profil-->
+    <section class="profil" id="profi">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center">
+            <h1 class="judul" data-aos="fade-right" data-aos-delay="100" data-aos-anchor-placement="top">
+              Photography<br>Universitas Pancasila</h1>
+          </div>
+        </div>
+        <div class="row gambar-content">
+          <div class="col-md-6 col-sm-12 d-flex justify-content-end align-items-end" data-aos="fade-right">
+            <img class="gambar" width="100%" height="100%" src="/assets/img/profil.svg" alt="profil" />
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+            <p class="mt-5 mb-2" data-aos="fade-left" data-aos-anchor-placement="bottom">Unit Kegiatan Mahasiswa
+              Photography Universitas Pancasila keluarga Mahasiswa Universitas Pancasila yang disingkat dengan UKM PHOTO
+              UP KMUP. <br>
+
+              <a href="profil.html" class="btn btn-custom btn-more" data-aos="fade-in">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Profil-->
+
+    <!-- kegiatan-->
+    <section class="kegiatan">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center">
+            <h1 class="judul" data-aos="fade-left" data-aos-anchor-placement="top">Kegiatan</h1>
+          </div>
+        </div>
+        <div class="row gambar-content mb-5">
+          <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+            <p class="my-5" data-aos="fade-right" data-aos-anchor-placement="bottom">UKM PHOTO UP KMUP mengadakan
+              segenap
+              kegiatan yang berkaitan dengan fotografi dan berorganisasi.</p>
+          </div>
+          <div class="col-md-6 col-sm-12 d-flex justify-content-start align-items-start" data-aos="fade-left">
+            <img class="gambar" width="100%" height="100%" src="/assets/img/kegiatan.svg" alt="kegiatan" />
+          </div>
+        </div>
+      </div>
+
+      <!-- sub kegiatan-->
+      <div class="container">
+        <div class="owl-carousel">
+          <div class="sub-kegiatan-item">
+            <div class="item-box">
+              <i class="fas fa-chalkboard-teacher icon"></i>
+              <h5>DIKLAT</h5>
+            </div>
+          </div>
+          <div class="sub-kegiatan-item">
+            <div class="item-box">
+              <i class="fas fa-chalkboard icon"></i>
+              <h5>Kelas Fotografi</h5>
+            </div>
+          </div>
+          <div class="sub-kegiatan-item">
+            <div class="item-box">
+              <i class="fas fa-camera icon"></i>
+              <h5>Hunting Foto</h5>
+            </div>
+          </div>
+          <div class="sub-kegiatan-item">
+            <div class="item-box">
+              <i class="fas fa-image icon"></i>
+              <h5>Pajang Karya</h5>
+            </div>
+          </div>
+          <div class="sub-kegiatan-item">
+            <div class="item-box">
+              <i class="fas fa-images icon"></i>
+              <h5>Pameran Fotografi</h5>
+            </div>
+          </div>
+          <div class="sub-kegiatan-item">
+            <div class="item-box">
+              <i class="fas fa-route icon"></i>
+              <h5>Vacation</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end sub kegiatan-->
+    <!-- end kegiatan-->
+
+    <!--testimoni-->
+    <section class="testimoni">
+      <div class="container">
+
+      </div>
+    </section>
+    <!--end testimoni-->
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row mb-15">
+          <div class="col-lg-5">
+            <div class="footer-item">
+              <span class="footer-logo">
+                UKM PHOTO UP KMUP
+              </span>
+              <p>Gedung Pusat Kegiatan Mahasiswa, Universitas Pancasila.<br> Jl. Raya Lenteng Agung No.56-80,
+                RT.1/RW.3,
+                Srengseng Sawah, Jakarta, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12640</p>
+              <div class="social-media">
+                <a href="https://www.instagram.com/photoup94" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.youtube.com/channel/UCiOalYiee_t57inMNtgSVtA" target="_blank"><i
+                    class='bx bxl-youtube'></i></a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-item">
+              <h class="h-item">Kontak Kami</h>
+              <ul class="item">
+                <li><i class='bx bxs-envelope-open'></i><a
+                    href="mailto:photoup1994@gmail.com?subject=Pesan%20untuk%20photo%20up"
+                    target="_blank">photoup1994@gmail.com</a>
+
+                </li>
+                <li><i class='bx bxs-phone'></i>
+                  <a href="https://wa.me/+6281774189092" target="_blank">+62-817-7418-9092 (Annisa)</a>
+                </li>
+                <li><i class='bx bxs-phone'></i>
+                  <a href="https://wa.me/+6281210624501" target="_blank">+62-812-1062-4501 (Zaki)</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer-item">
+              <h class="h-item">Tautan</h>
+              <ul class="item">
+                <li><a href="profil.html">Profil photo up</a></li>
+                <li><a href="galeri.html">Galeri foto</a></li>
+                <li><a href="kontak.html#faq">Pertanyaan Umum</a></li>
+                <li><a href="acara.html">Acara</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <div class="copyright mt-10">
+          <p><i class='bx bx-copyright'></i> Hak Cipta 2022 - UKM PHOTO UP KMUP </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- end footer -->
+  <div class="btn-scroll">
+    <a href="#" class="scroll-top">
+      <i class="ini fas fa-chevron-up"></i>
+    </a>
+  </div>
+
+
+  <!-- JavaScript -->
+  <script src="/vendor/jquery/jquery.slim.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/vendor/owlcarousel/js/owl.carousel.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="/script/navbar.js"></script>
+  <script src="/script/scroll-up.js"></script>
+  <script src="/script/owl-kegiatan.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
