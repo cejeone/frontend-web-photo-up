@@ -1,7 +1,6 @@
 .btn-custom {
   background-color: var(--btn-primary);
   border-radius: 15px;
-  width: 120px;
   padding: 11px;
   font-weight: 700;
   text-align: center;
@@ -16,10 +15,21 @@
   &.btn-mulai {
     justify-content: center;
     text-align: center;
+    width: 80px;
+
+    & i.mulai {
+      font-size: 30px;
+    }
   }
 
   &.btn-more {
     margin: 20px 0;
-    width: 160px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+
+    & i {
+      font-size: 27px;
+    }
   }
 }

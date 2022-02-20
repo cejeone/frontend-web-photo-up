@@ -14,13 +14,14 @@
   --font-h: #16161a;
   --font-p: #16161a;
   --font-btn: #fff;
+  --font-btn-hvr: #fff;
   --font-nav: #444444;
   --font-logo: black;
   --font-footer: black;
 
   //button
   --btn-primary: black;
-  --btn-hover: #6e7be5;
+  --btn-hover: #494949;
 }
 
 body {
@@ -42,13 +43,14 @@ body.dark {
   //font color
   --font-h: #fffffe;
   --font-p: #94a1b2;
-  --font-btn: #fffffe;
+  --font-btn: black;
+  --font-btn-hvr: black;
   --font-nav: #fffffe;
   --font-logo: #fffffe;
   --font-footer: black;
 
   //button
-  --btn-primary: #98ACB1;
+  --btn-primary: white;
   --btn-hover: #D4DADC;
 }
 

@@ -121,29 +121,35 @@ section.faq {
      }
 
      & .item-faq {
+          border: none;
           align-items: center;
           margin: 20px 20px;
 
           @include media-breakpoint-up(lg) {
-               margin: 20px 150px;
+               margin: 20px 200px;
           }
 
 
           & .accordion-item {
+               border: none;
                border-radius: 15px;
                background: var(--secondary-color);
                color: var(--font-h);
+               margin-bottom: 20px;
 
                & .accordion-header {
+                    border: none;
+
                     & button.accordion-button {
                          background: var(--secondary-color);
                          color: var(--font-h);
                          border-radius: 15px;
                          text-decoration: none;
                          font-size: 18px;
+                         border: none;
+                         box-shadow: none;
 
                     }
-
 
                }
           }
@@ -151,6 +157,9 @@ section.faq {
           & .accordion-body {
                background: var(--bg-color);
                color: var(--font-p);
+               border: none;
           }
      }
 }
+
+//section pertanyaan

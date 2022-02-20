@@ -9,17 +9,27 @@
 
   <!-- CSS -->
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
   <link href="/vendor/owlcarousel/css/owl.carousel.min.css" rel="stylesheet" />
   <link href="/vendor/owlcarousel/css/owl.theme.default.min.css" rel="stylesheet" />
-  <link href="/vendor/lightgallery/css/lightgallery-bundle.min.css" rel="stylesheet" />
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="style/magnific-popup.css" type="text/css" rel="stylesheet" />
   <link href="style/main.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -65,38 +75,66 @@
     </div>
   </nav>
   <!-- Navbar -->
-  <div class="page-content">
-    <!-- hero header -->
-    <section class="header-hero">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6"></div>
-          <div class="col-lg-6"></div>
+
+  <!-- hero header -->
+  <section class="header-hero">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-lg-6 col-md-6">
+          <div class="logopu">
+            <img src="/assets/img/logopu.svg" alt="">
+          </div>
+          <div class="hai">
+            <h1>👋 Hai ! </h1>
+            <h2>Selamat Datang</h2>
+            <h2>Di PHOTO UP</h2>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="sub-hero">
+            <div class="hero-box">
+              <p> Yuk <br>
+                berkenalan dengan kami,
+                belajar
+                fotografi dan organisasi bersama !</p>
+
+              <div class="text-center">
+                <a href="profil.html" class="btn btn-custom btn-mulai" data-aos="fade-in"><i
+                    class='bx bx-chevron-right mulai'></i></a>
+              </div>
+
+            </div>
+          </div>
         </div>
       </div>
 
-    </section>
-    <!-- end hero header -->
+    </div>
+  </section>
+  <!-- end hero header -->
+
+  <div class="page-content">
 
     <!-- profil-->
     <section class="profil" id="profi">
       <div class="container">
         <div class="row">
           <div class="col-md-12 d-flex justify-content-center">
-            <h1 class="judul" data-aos="fade-right" data-aos-delay="100" data-aos-anchor-placement="top">
+            <h1 class="judul" data-aos="fade-up" data-aos-delay="100" data-aos-anchor-placement="top">
               Photography<br>Universitas Pancasila</h1>
           </div>
         </div>
         <div class="row gambar-content">
-          <div class="col-md-6 col-sm-12 d-flex justify-content-end align-items-end" data-aos="fade-right">
+          <div class="col-md-6 col-sm-12 d-flex justify-content-end align-items-end" data-aos="fade-up">
             <img class="gambar" width="100%" height="100%" src="/assets/img/profil.svg" alt="profil" />
           </div>
           <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
-            <p class="mt-5 mb-2" data-aos="fade-left" data-aos-anchor-placement="bottom">Unit Kegiatan Mahasiswa
+            <p class="mt-5 mb-2" data-aos="fade-up" data-aos-anchor-placement="bottom">Unit Kegiatan Mahasiswa
               Photography Universitas Pancasila keluarga Mahasiswa Universitas Pancasila yang disingkat dengan UKM PHOTO
-              UP KMUP. <br>
+              UP KMUP. <br> </p>
 
+            <div class="text-center">
               <a href="profil.html" class="btn btn-custom btn-more" data-aos="fade-in">Selengkapnya</a>
+            </div>
           </div>
         </div>
       </div>
@@ -108,16 +146,18 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 d-flex justify-content-center">
-            <h1 class="judul" data-aos="fade-left" data-aos-anchor-placement="top">Kegiatan</h1>
+            <h1 class="judul" data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top">Kegiatan</h1>
           </div>
         </div>
         <div class="row gambar-content mb-5">
           <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
-            <p class="my-5" data-aos="fade-right" data-aos-anchor-placement="bottom">UKM PHOTO UP KMUP mengadakan
+            <p class="my-5" data-aos="fade-up" data-aos-delay="250" data-aos-anchor-placement="bottom">UKM PHOTO UP KMUP
+              mengadakan
               segenap
               kegiatan yang berkaitan dengan fotografi dan berorganisasi.</p>
           </div>
-          <div class="col-md-6 col-sm-12 d-flex justify-content-start align-items-start" data-aos="fade-left">
+          <div class="col-md-6 col-sm-12 d-flex justify-content-start align-items-start" data-aos="fade-up"
+            data-aos-delay="100">
             <img class="gambar" width="100%" height="100%" src="/assets/img/kegiatan.svg" alt="kegiatan" />
           </div>
         </div>
@@ -125,7 +165,7 @@
 
       <!-- sub kegiatan-->
       <div class="container">
-        <div class="owl-carousel">
+        <div class="owl-carousel" data-aos="fade-up" data-aos-delay="200">
           <div class="sub-kegiatan-item">
             <div class="item-box">
               <i class="fas fa-chalkboard-teacher icon"></i>
@@ -168,13 +208,291 @@
     <!-- end sub kegiatan-->
     <!-- end kegiatan-->
 
-    <!--testimoni-->
-    <section class="testimoni">
+    <!--testimonial-->
+    <section class="testimonial" data-aos="fade-up" data-aos-delay="200">
       <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="section-title" data-aos="fade-up" data-aos-delay="200">
+              <span>Testimonial</span>
+              <h1>Kata Anggota UKM PHOTO UP KMUP</h1>
+            </div>
+          </div>
+          <div class="testimonials" data-aos="fade-up" data-aos-delay="350">
+            <div class="testimonial-item">
+              <i class='bx bxs-quote-right testi-quote'></i>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+              <div class="row">
+                <div class="col-sm-2">
+                  <img src="images/b.jpg" alt="foto">
+                </div>
+                <div class="col-sm-5">
+                  <h5>Ini Nama Anggota</h5>
+                  <span>Anggota</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <i class='bx bxs-quote-right testi-quote'></i>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+              <div class="row">
+                <div class="col-sm-2">
+                  <img src="images/c.png" alt="foto">
+                </div>
+                <div class="col-sm-5">
+                  <h5>Ini Nama Anggota</h5>
+                  <span>Anggota</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <i class='bx bxs-quote-right testi-quote'></i>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+              <div class="row">
+                <div class="col-sm-2">
+                  <img src="images/a.jpg" alt="foto">
+                </div>
+                <div class="col-sm-5">
+                  <h5>Ini Nama Anggota</h5>
+                  <span>Anggota</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end testimonial-->
+
+    <!--gallery-->
+    <section class="gallery" data-aos="fade-up" data-aos-delay="200">
+      <div class="container">
+        <div class="judul-gallery">
+          <h1>Galeri</h1>
+        </div>
+        <!-- <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <ul class="col container-filter portfolioFilte list-unstyled mb-0" id="filter">
+                <li class="categories active" data-filter="*"><a>Semua</a></li>
+                <li class="categories" data-filter=".karya"><a>Karya</a></li>
+                <li class="categories" data-filter=".kerjasama"><a>Kerjasama</a></li>
+                <li class="categories" data-filter=".acara"><a>Acara</a></li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="port portfolio-masonry mt-4">
+          <div class="portfolioContainer row photo">
+            <div class="col-lg-4 p-4 karya">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-1.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-1.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 p-4 karya">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-9.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-9.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                      </h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 p-4 karya acara">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-7.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-7.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 p-4 karya kerjasama acara">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-5.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-5.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 p-4 kerjasama acara">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-11.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-11.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 p-4 karya kerjasama acara">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-4.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-4.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 p-4 karya kerjasama">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-12.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-12.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 p-4 karya kerjasama acara">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-6.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-6.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 p-4 karya acara">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-8.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-8.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 p-4 karya kerjasama acara">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-14.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-14.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 p-4 kerjasama acara">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-15.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-15.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 p-4 karya kerjasama acara">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-13.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-13.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 p-4 kerjasama acara">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-5.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-5.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 p-4 karya kerjasama acara">
+              <div class="item-box">
+                <a class="mfp-image" href="assets/portfolio/img-16.png" title="nama foto">
+                  <img class="item-container img-fluid" src="assets/portfolio/img-16.png" alt="work-img" />
+                  <div class="item-mask">
+                    <div class="item-caption">
+                      <p class="text-dark mb-0">karya</p>
+                      <h6 class="text-dark mt-1 text-uppercase">nama fotografer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-gallery">
+          <a href="galeri.html" class="btn btn-custom btn-more" data-aos="fade-in">Selengkapnya</a>
+        </div>
 
       </div>
     </section>
-    <!--end testimoni-->
+    <!--end gallery-->
+
   </div>
 
   <!-- footer -->
@@ -251,7 +569,15 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="/script/navbar.js"></script>
   <script src="/script/scroll-up.js"></script>
-  <script src="/script/owl-kegiatan.js"></script>
+  <script src="/script/slider.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!--galeri script-->
+  <script src="/vendor/jquery/jquery.magnific-popup.min.js"></script>
+  <script src="/script/isotope.js"></script>
+  <script src="/script/app.js"></script>
   <script>
     AOS.init();
   </script>

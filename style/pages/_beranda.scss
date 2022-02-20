@@ -1,10 +1,224 @@
 // Header hero
+section.header-hero {
+     background-color: var(--secondary-color);
+     padding: 100px 0;
+
+     & .logopu {
+          display: flex;
+          margin: 10px 0;
+
+
+          @include media-breakpoint-down(sm) {
+               align-items: center;
+               justify-content: center;
+          }
+
+          @include media-breakpoint-only(md) {
+               align-items: center;
+               justify-content: center;
+          }
+
+
+     }
+
+     & .hai {
+          & h1 {
+               font-style: normal;
+               font-weight: bold;
+               font-size: 70px;
+               line-height: 178.5%;
+               color: var(--font-h);
+               display: flex;
+
+               @include media-breakpoint-down(sm) {
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0;
+               }
+
+               @include media-breakpoint-only(md) {
+                    margin: 0;
+               }
+          }
+
+          & h2 {
+               display: flex;
+               font-style: normal;
+               font-weight: 600;
+               font-size: 50px;
+               color: var(--font-h);
+               margin-left: 110px;
+
+               @include media-breakpoint-down(sm) {
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 40px;
+                    margin: 20px 0;
+               }
+
+               @include media-breakpoint-only(md) {
+                    font-size: 40px;
+                    margin: 20px 0;
+
+               }
+
+
+          }
+     }
+
+     & .sub-hero {
+          display: flex;
+          background-image: url('/assets/img/gradien.svg');
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          position: relative;
+          align-items: center;
+          justify-content: center;
+          margin-top: 20px;
+
+          & .hero-box {
+               position: relative;
+               background-color: var(--bg-color);
+               height: 520px;
+               border-radius: 30px;
+               width: 285px;
+               animation: pulse 1s infinite;
+               box-shadow: 0 0 0px rgba(105, 105, 105, 0.61);
+
+               & p {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 36px;
+                    margin: 90px 53px;
+                    color: var(--font-h);
+               }
+          }
+
+          @keyframes pulse {
+               0% {
+                    box-shadow: 0 0 0 0 rgba(0, 0, 0, 2);
+               }
+
+               100% {
+                    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+               }
+
+          }
+     }
+}
 
 
 // Testimoni
-section.testimoni {
-     background-color: var(--secondary-color);
-     padding: 30px 30px;
-     margin: 20px 20px;
+section.testimonial {
+     margin: 100px 0px 100px 0px;
+     background: var(--secondary-color);
      border-radius: 30px;
+     width: 100%;
+     padding: 50px 40px 50px 40px;
+
+     & .section-title {
+          align-items: center;
+          text-align: center;
+          margin: 20px 0px 50px 0px;
+
+          & span {
+               color: var(--primary-color);
+          }
+
+          & h1 {
+               font-style: normal;
+               font-weight: 600;
+               font-size: 36px;
+               color: var(--font-h);
+          }
+
+     }
+
+     & .testimonials {
+          overflow: hidden;
+
+
+          & .testimonial-item {
+               padding: 40px 30px;
+               background: var(--bg-color);
+               border-radius: 30px;
+               margin: 30px 15px;
+
+
+
+               & p {
+                    margin-bottom: 30px;
+                    font-style: italic;
+                    color: var(--font-p);
+               }
+
+               & h5 {
+                    line-height: 20px;
+                    margin-bottom: 0;
+                    margin-top: 5px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: var(--font-h);
+               }
+
+               & span {
+                    font-size: 13px;
+                    color: var(--font-h);
+               }
+
+               & i.testi-quote {
+                    position: absolute;
+                    bottom: 0;
+                    padding-left: 20%;
+               }
+
+               & i {
+                    font-size: 50px;
+                    color: var(--font-h);
+               }
+
+               & .row img {
+                    margin-right: 0;
+                    border-radius: 50% !important;
+               }
+
+               & .list-inline {
+                    float: right;
+                    margin-top: 15px;
+               }
+
+               & .list-inline,
+               .list-inline-item:not(:last-child) {
+                    margin-bottom: 0;
+                    color: #ffc800;
+               }
+
+               & .list-inline-item {
+                    margin-right: 5px;
+               }
+          }
+     }
+}
+
+//Galeri singkat
+
+.judul-gallery {
+     margin-top: 100px;
+     align-items: center;
+     text-align: center;
+
+     & h1 {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          color: var(--font-h);
+     }
+}
+
+.btn-gallery {
+     text-align: center;
+     align-items: center;
+     margin: 30px 0px 60px 0px;
 }
