@@ -11522,6 +11522,8 @@ body {
   width: 100%;
   position: relative;
   background-color: var(--bg-color);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 body.dark {
@@ -11540,6 +11542,8 @@ body.dark {
   --font-footer: black;
   --btn-primary: white;
   --btn-hover: #D4DADC;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .page-content {
@@ -12040,9 +12044,251 @@ section.breadcrumb-header .breadcrumb-nav ol.breadcrumb li.breadcrumb-item a {
   color: var(--font-h);
 }
 
+/* .sidebar {
+     position: fixed;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 250px;
+     background-color: var(--secondary-color);
+     border-radius: 30px;
+     padding: 30px 15px;
+     transition: all 0.3s ease;
+     z-index: 100;
+
+     & .menu-bar {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+
+          & ul {
+               padding: 0;
+               margin: 40px 0 0 0;
+          }
+
+          & li {
+               height: 50px;
+               margin-top: 25px;
+               list-style: none;
+               display: flex;
+               align-items: center;
+               text-decoration: none;
+               padding: 0;
+
+               & a {
+                    display: flex;
+                    text-decoration: none;
+                    align-items: center;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 10px;
+                    transition: all 0.2s ease;
+                    padding: 5px 0;
+
+                    &:hover {
+                         background: var(--primary-color);
+
+                         & .icon,
+                         .text {
+                              color: var(--font-btn);
+                         }
+                    }
+
+
+
+               }
+
+               & .icon {
+                    margin-left: 20px;
+                    min-width: 50px;
+                    font-size: 25px;
+                    color: var(--font-h);
+                    transition: all 0.2s ease;
+               }
+
+               & .text {
+
+                    color: var(--font-h);
+                    transition: all 0.2s ease;
+               }
+
+          }
+
+
+
+          & .bottom-content {
+               & .mode {
+                    position: relative;
+                    border-radius: 10px;
+
+
+                    & .moon-mode {
+                         display: flex;
+                         align-items: center;
+                         height: 50px;
+                         width: 60px;
+
+                    }
+
+                    & i {
+                         position: absolute;
+
+                    }
+
+                    & .toggle-switch {
+                         position: absolute;
+                         right: 0;
+                         display: flex;
+                         align-items: center;
+                         justify-content: center;
+                         height: 100%;
+                         min-width: 60px;
+                         cursor: pointer;
+
+                         & .switch {
+                              position: relative;
+                              height: 22px;
+                              width: 44px;
+                              border-radius: 50px;
+                              background: var(--bg-color);
+
+                         }
+
+
+                    }
+               }
+          }
+
+
+
+     }
+
+     & .image-text img {
+          display: flex;
+          align-items: center;
+          width: 50px;
+     }
+
+     & .image {
+          min-width: 60px;
+          display: flex;
+          align-items: center;
+          margin-right: 20px;
+     }
+
+     & .text {
+          font-style: normal;
+          font-size: 16px;
+          font-weight: 500;
+          color: var(--font-h);
+          transition: all 0.3s ease;
+          white-space: nowrap;
+          opacity: 1;
+     }
+
+
+
+     & header {
+          position: relative;
+
+          & .image-text {
+               display: flex;
+               align-items: center;
+
+               & .header-text {
+                    display: flex;
+                    flex-direction: column;
+
+                    & .name {
+                         font-weight: 700;
+                    }
+
+                    & .name-admin {
+                         margin-top: 5px;
+                    }
+               }
+          }
+
+          & .toggle {
+               position: absolute;
+               top: 50%;
+               right: -25px;
+               transform: translateY(-50%);
+               height: 25px;
+               width: 25px;
+               background-color: var(--btn-primary);
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               border-radius: 5px;
+               color: var(--font-btn);
+               font-size: 22px;
+               cursor: pointer;
+
+          }
+     }
+
+     &.close {
+          width: 95px;
+
+          & .text {
+               opacity: 0;
+          }
+
+          & header .toggle {
+               transform: rotate(180deg);
+          }
+     }
+
+}
+
+.switch::before {
+     content: '';
+     position: absolute;
+     height: 15px;
+     width: 15px;
+     border-radius: 56%;
+     top: 50%;
+     left: 5px;
+     transform: translateY(-50%);
+     background: var(--primary-color);
+     transition: all 0.2s ease;
+
+}
+
+body.dark .switch::before {
+     left: 25px;
+}
+
+//section isi dashboard
+.dashboard-content {
+     position: relative;
+     height: 100%;
+     left: 300px;
+     right: 0;
+     width: calc(100% - 300px);
+     transition: all 0.3s ease;
+     background: var(--secondary-color);
+     border-radius: 30px;
+     margin-right: 20px;
+
+}
+
+.sidebar.close~.dashboard-content {
+     left: 140px;
+     width: calc(100% - 140px);
+
+} */
 section.header-hero {
   background-color: var(--secondary-color);
   padding: 100px 0;
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  section.header-hero {
+    background-color: var(--secondary-color);
+    height: 100vh;
+  }
 }
 
 section.header-hero .logopu {

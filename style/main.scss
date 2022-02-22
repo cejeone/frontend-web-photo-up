@@ -8,6 +8,7 @@
 @import "components/scroll-top";
 @import "components/button";
 @import "components/breadcrumb";
+@import "components/sidebar";
 
 //page
 @import "pages/beranda";
@@ -16,3 +17,10 @@
 @import "pages/kontak";
 @import "pages/acara";
 @import "pages/galeri";
+
+//page admin 
+@import "pages/dashboard";
+@import "pages/db_galeri";
+@import "pages/db_acara";
+@import "pages/db_setting";
+@import "pages/login";
