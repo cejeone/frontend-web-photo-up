@@ -3,12 +3,6 @@ section.header-hero {
      background-color: var(--secondary-color);
      padding: 100px 0;
 
-     @media (min-width: 768px) and (max-width: 1440px) {
-          background-color: var(--secondary-color);
-          height: 100vh;
-     }
-
-
      & .logopu {
           display: flex;
           margin: 10px 0;
@@ -28,6 +22,7 @@ section.header-hero {
      }
 
      & .hai {
+
           & h1 {
                font-style: normal;
                font-weight: bold;
@@ -43,7 +38,25 @@ section.header-hero {
                }
 
                @include media-breakpoint-only(md) {
+                    align-items: center;
+                    justify-content: center;
                     margin: 0;
+               }
+
+               & span {
+                    animation: gerak 1.5s infinite;
+                    display: flex;
+
+                    @keyframes gerak {
+                         0% {
+                              transform: rotate(-10deg);
+                         }
+
+                         100% {
+                              transform: rotate(10deg);
+                         }
+
+                    }
                }
           }
 
@@ -53,7 +66,7 @@ section.header-hero {
                font-weight: 600;
                font-size: 50px;
                color: var(--font-h);
-               margin-left: 110px;
+               margin-left: 105px;
 
                @include media-breakpoint-down(sm) {
                     align-items: center;
@@ -63,7 +76,8 @@ section.header-hero {
                }
 
                @include media-breakpoint-only(md) {
-                    font-size: 40px;
+                    align-items: center;
+                    justify-content: center;
                     margin: 20px 0;
 
                }
@@ -71,6 +85,45 @@ section.header-hero {
 
           }
      }
+
+     & .thumbnail-foto {
+          margin-top: 20px;
+
+          @include media-breakpoint-up(lg) {
+               margin-left: 105px;
+          }
+
+          @include media-breakpoint-only(md) {
+               align-items: center;
+               justify-content: center;
+               margin-bottom: 30px;
+
+          }
+
+          @include media-breakpoint-down(sm) {
+               align-items: center;
+               justify-content: center;
+               margin-bottom: 30px;
+
+          }
+
+          display: flex;
+          flex-direction: row;
+          justify-content: left;
+
+          & .thumbnail-item {
+               margin: 0 -10px;
+               background-color: var(--primary-color);
+               border-radius: 100px;
+               padding: 5px 5px;
+               border: 5px solid var(--bg-color);
+          }
+
+          & img {
+               width: 50px;
+          }
+     }
+
 
      & .sub-hero {
           display: flex;
@@ -188,6 +241,7 @@ section.testimonial {
                & .row img {
                     margin-right: 0;
                     border-radius: 50% !important;
+                    width: 80px;
                }
 
                & .list-inline {

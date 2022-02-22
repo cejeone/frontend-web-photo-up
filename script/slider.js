@@ -12,11 +12,22 @@ $(document).ready(function () {
                     items: 1,
                     nav: true
                },
-               600: {
-                    items: 3,
-                    nav: false
+               425: {
+                    items: 1,
+                    nav: true,
+                    loop: true
                },
-               1000: {
+               600: {
+                    items: 2,
+                    nav: true,
+                    loop: true
+               },
+               1024: {
+                    items: 4,
+                    nav: true,
+                    loop: true
+               },
+               1440: {
                     items: 5,
                     nav: true,
                     loop: true

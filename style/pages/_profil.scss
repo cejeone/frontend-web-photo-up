@@ -368,7 +368,7 @@ section.video {
 section.ketum {
 
      @include media-breakpoint-up(lg) {
-          margin: 5px 200px;
+          margin: 5px 250px;
      }
 
      .item-box {
@@ -410,9 +410,28 @@ section.ketum {
                color: var(--font-h);
           }
 
-          & .row img {
-               margin-right: 0;
-               border-radius: 50% !important;
+          & .row .user-foto {
+
+               @include media-breakpoint-up(lg) {
+                    display: flex;
+                    justify-content: center;
+               }
+
+
+               & img {
+                    margin-right: 0;
+                    border-radius: 50% !important;
+                    width: 80px;
+               }
+          }
+
+          & .kata {
+               position: relative;
+               display: flex;
+               flex-wrap: wrap;
+               flex-direction: column;
+               margin: 5px 0;
+               justify-content: center;
           }
 
      }
