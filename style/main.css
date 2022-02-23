@@ -12750,6 +12750,13 @@ section.video .btn-play button.play-btn {
   }
 }
 
+section.video .modal-content {
+  border-radius: 15px;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
 @media (min-width: 992px) {
   section.ketum {
     margin: 5px 250px;
@@ -12826,6 +12833,29 @@ section.ketum .item-box .kata {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+section.struktural {
+  margin: 50px 0;
+}
+
+section.struktural h1, section.struktural .h1 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--font-h);
+}
+
+section.struktural h2, section.struktural .h2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--font-h);
+}
+
+section.struktural img {
+  width: 100%;
+  height: 100%;
 }
 
 section.peta .embed iframe.embed-peta {
