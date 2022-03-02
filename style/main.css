@@ -12094,6 +12094,7 @@ section.header-hero .hai h1, section.header-hero .hai .h1 {
         -ms-flex-pack: center;
             justify-content: center;
     margin: 0;
+    font-size: 60px;
   }
 }
 
@@ -12147,7 +12148,6 @@ section.header-hero .hai h2, section.header-hero .hai .h2 {
   font-weight: 600;
   font-size: 50px;
   color: var(--font-h);
-  margin-left: 105px;
 }
 
 @media (max-width: 575.98px) {
@@ -12165,6 +12165,41 @@ section.header-hero .hai h2, section.header-hero .hai .h2 {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   section.header-hero .hai h2, section.header-hero .hai .h2 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 20px 0;
+  }
+}
+
+section.header-hero .hai h3, section.header-hero .hai .h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  color: var(--font-h);
+}
+
+@media (max-width: 575.98px) {
+  section.header-hero .hai h3, section.header-hero .hai .h3 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 29px;
+    margin: 20px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.header-hero .hai h3, section.header-hero .hai .h3 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;

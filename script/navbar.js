@@ -29,10 +29,10 @@ modeToggle.addEventListener("click", () => {
   }
 })
 
-//js toggle search
-searchToggle.addEventListener("click", () => {
-  searchToggle.classList.toggle("active");
-})
+// //js toggle search
+// searchToggle.addEventListener("click", () => {
+//   searchToggle.classList.toggle("active");
+// })
 
 //js sidebar
 
